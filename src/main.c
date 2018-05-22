@@ -18,7 +18,10 @@ int main(void) {
 		if (indice == '\n' || indice == ' '){
 			printf("\n");
 		}
-		else if (indice != '\t'){
+		if (indice != '\t'){
+			putchar(indice);
+		}
+		else{
 			putchar(indice);
 		}
 	}
