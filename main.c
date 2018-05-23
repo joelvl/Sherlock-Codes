@@ -3,10 +3,10 @@
 
 
 int main(void) {
+	
 	int indice;
-	//char direccion[] = "C:\\Users\\Administrator\\Documents\\Segunda Progra Bases.txt";
 	char direccion[] = "C:\\Users\\Administrator\\Downloads\\TareaCorta\\src\\Logica\\Bingo.java";
-
+	
 	FILE *archivo = fopen(direccion, "rt");
 
 	if (archivo == NULL){
@@ -29,4 +29,5 @@ int main(void) {
 	fclose(archivo);
 
 	return 0;
+
 }
